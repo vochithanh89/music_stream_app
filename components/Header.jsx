@@ -1,10 +1,10 @@
 import React from 'react';
 import { View, Text, StyleSheet, Image } from 'react-native';
 
-const Header = ({ name }) => {
+const Header = ({ name, showGreeting = true }) => {
     return (
         <View style={styles.container}>
-            <Text style={styles.greeting}>Good morning,</Text>
+            {showGreeting && <Text style={styles.greeting}>Good morning,</Text>}
             <Text style={styles.name}>{name}</Text>
         </View>
     );
