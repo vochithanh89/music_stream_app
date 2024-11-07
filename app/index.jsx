@@ -1,7 +1,13 @@
+import { Link } from 'expo-router';
 import React from 'react';
 import { View, Text, StyleSheet, ImageBackground, Pressable, Image } from 'react-native';
 
 export default Index = () => {
+
+    const redirectToHome = () => {
+
+    }
+
     return (
         <ImageBackground
             source={require('../assets/images/launch_screen/background.png')}
@@ -17,9 +23,9 @@ export default Index = () => {
                 <Text style={styles.title}>Welcome to Music App</Text>
                 <Text style={styles.dots}>...</Text>
 
-                <Pressable style={styles.button}>
+                <Link href="/home"style={styles.button}>
                     <Text style={styles.buttonText}>Start listening</Text>
-                </Pressable>
+                </Link>
             </View>
         </ImageBackground>
     );
