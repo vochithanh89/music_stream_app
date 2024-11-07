@@ -1,4 +1,4 @@
-import { FlatList } from "react-native-web";
+import { FlatList, View } from "react-native-web";
 import PostCard from "../../components/PostCard";
 import Header from "../../components/Header";
 

@@ -3,7 +3,9 @@ import { Ionicons } from '@expo/vector-icons';
 
 export default function RootLayout() {
     return (
-        <Tabs>
+        <Tabs
+            sceneContainerStyle={{paddingHorizontal: 12, backgroundColor: 'white'}}
+        >
             <Tabs.Screen
                 name="home"
                 options={{

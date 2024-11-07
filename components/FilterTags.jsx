@@ -24,7 +24,7 @@ const styles = StyleSheet.create({
     },
     tag: {
         alignSelf: 'flex-start',
-        backgroundColor: '#dedede',
+        backgroundColor: '#f3f3f3',
         paddingVertical: 6,
         paddingHorizontal: 12,
         borderRadius: 20,

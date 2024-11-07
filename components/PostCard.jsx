@@ -41,7 +41,7 @@ export default function PostCard({ post }) {
 
 const styles = StyleSheet.create({
     postContainer: {
-        padding: 10,
+        paddingVertical: 16,
         borderBottomWidth: 1,
         borderColor: '#ddd',
     },

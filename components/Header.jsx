@@ -12,7 +12,7 @@ const Header = ({ name, showGreeting = true }) => {
 
 const styles = StyleSheet.create({
     container: {
-        padding: 20,
+        paddingVertical: 20,
     },
     greeting: {
         fontSize: 16,

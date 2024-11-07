@@ -50,6 +50,6 @@ const styles = StyleSheet.create({
         backgroundColor: '#fff',
     },
     horizontalScroll: {
-        paddingLeft: 20,
+        // paddingLeft: 20,
     },
 });
